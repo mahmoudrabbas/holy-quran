@@ -1,0 +1,1 @@
+export const FETCH_ALL_SURAHS = "FETCH_ALL_SURAHS";

@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Lateef&display=swap');
+
+
+
+/* App */
+div.content {
+  min-height: 67vh;
+}
+
+
+/* Home */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+    color: #333;
+    text-shadow: none;
+}
+
+.cover-container {
+    max-width: 50em;
+}
+
+.navbar a {
+  color: #333;
+}
+.navbar button {
+  color: #333;
+}
+
+
+main {
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Lateef', cursive;
+}
