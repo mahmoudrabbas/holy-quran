@@ -5,7 +5,7 @@ import { FETCH_ALL_SURAHS } from './types';
 export const surahs = () => async(dispatch) => {
     try {
         const { data } = await api.getSurahs();
-        dispatch({ type:FETCH_ALL_SURAHS, payload:data });
+        dispatch({ type:FETCH_ALL_SURAHS, payload:data.data });
     } catch (error) {
         console.log(error);
     }

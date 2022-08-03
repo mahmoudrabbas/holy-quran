@@ -13,7 +13,7 @@ const Footer = () => {
                         <li className="nav-item"><a href="https://alquran.cloud/api" className="nav-link px-2 text-muted">Code</a></li>
                         <li className="nav-item"><a href="https://github.com/mahmoudrabbas" className="nav-link px-2 text-muted">Developer</a></li>
                     </ul>
-                    <p className="text-center text-muted">© 2022 HolyQuran.com</p>
+                    <p className="text-center text-muted">© 2022 Holy Quran</p>
                 </footer>
             </div>
         </>

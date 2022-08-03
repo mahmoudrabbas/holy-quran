@@ -4,9 +4,9 @@
 
 
 /* App */
-div.content {
+/* div.content {
   min-height: 67vh;
-}
+} */
 
 
 /* Home */
@@ -17,9 +17,16 @@ div.content {
     text-shadow: none;
 }
 
-.cover-container {
-    max-width: 50em;
+.navbar {
+  min-height: 100px;
 }
+
+
+.navbar .navbar-brand {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 
 .navbar a {
   color: #333;
@@ -32,4 +39,24 @@ div.content {
 main {
   font-family: 'Cairo', sans-serif;
   font-family: 'Lateef', cursive;
+}
+
+main .btn {
+  font-family: sans-serif;
+}
+
+
+.form1 {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .form1 {
+    width: 50%;
+  }
+  
+}
+
+.quran {
+  text-align: justify;
 }

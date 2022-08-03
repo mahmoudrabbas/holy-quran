@@ -1,4 +1,6 @@
 import axios from 'axios';
 
-const url = "https://api.alquran.cloud/surah/1";
+const url = "https://api.alquran.cloud/surah";
+
+
 export const getSurahs = () => axios.get(url);
