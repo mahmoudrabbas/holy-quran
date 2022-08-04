@@ -24,6 +24,7 @@ const Surah = () => {
 
 
     console.log(ayahs);
+    const style = { textAlign:"justify"};
 
 
     
@@ -42,7 +43,7 @@ const Surah = () => {
                     
                     </p>
                     <p className="lead fs-1" dir='rtl'>صَدَقَ اللهُ العظيمُ </p>
-                    <p className="quran lead fs-3" dir='ltr'>{surah?.name} - {surah?.englishName}</p>
+                    <p className="lead fs-3" id="quran" style={style} dir='rtl'>{surah?.name} - {surah?.englishName}</p>
                     <div className='d-flex justify-content-between'>
                         {parseInt(id) ===  1 ? (
                             <button className='btn m-1' onClick={() => navigate(`/home`)}><i className="fa-solid fa-angle-left"></i> Previous</button>
