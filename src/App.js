@@ -35,7 +35,7 @@ function App() {
               <option key={surah?.number} value={`${surah?.number}`} onClick={() => navigate(`/surah/${surah?.number}`)}>{`${surah?.number}-${surah?.englishName} [${surah?.revelationType}]`}</option>
             )):""}
           </select>
-          <button type='submit' className='btn btn-secondary m-1'>Open</button>
+          <button type='submit' className='btn btn-outline-success m-1'>Open</button>
         </form>
       </div>
       <div className='content'>

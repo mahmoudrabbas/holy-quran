@@ -6,13 +6,13 @@ const Header = () => {
         <nav className="navbar align-items-center navbar-expand-lg bg-light sticky-top">
             <div className="container">
                 <Link className="navbar-brand text-dark" to="/"><i className="fa-solid fa-book-open text-success"></i> Holy Quran</Link>
-                <button className="navbar-toggler justify-content-center align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"><i className="fa-solid fa-bars"></i></span>
+                <button className="navbar-toggler justify-content-center align-items-center bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon text-light"><i className="fa-solid fa-bars"></i></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
+                            <NavLink className="nav-link"  to="/">Home</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/">Surahs</NavLink>

@@ -10,7 +10,6 @@ const Surah = () => {
     const [ayahs, setAyahs] = useState([]);
 
     const surah = useSelector(state => state.surahs)[parseInt(id)-1];
-    console.log(surah)
 
 
 
@@ -23,27 +22,21 @@ const Surah = () => {
     },[id])
 
 
-    console.log(ayahs);
-    const style = { textAlign:"justify"};
-
-
-    
     return (
             <div className="container d-flex p-1 w-100 flex-column">
                 <main className="px-3 text-center">
                     <h2 className='text-center fs-1' dir='rtl'>بِسْمِ ٱللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</h2>
-                    <p className="lead fs-1" dir='rtl'> ﴿
-
+                    <p className="lead fs-1 justify-ayat-text" dir='rtl'>
+                    ﴿
                     {ayahs?.map(ayah => (
                         <span key={ayah.number}>
-                            {" "}{ayah.text} {ayah.sajda} ({ayah.numberInSurah})
+                            <span className='ayat'>{ayah.text}{ayah.sajda}</span><span className='text-success'>({ayah.numberInSurah})</span>
                         </span>
                     ))}
                     ﴾
-                    
                     </p>
                     <p className="lead fs-1" dir='rtl'>صَدَقَ اللهُ العظيمُ </p>
-                    <p className="lead fs-3" id="quran" style={style} dir='rtl'>{surah?.name} - {surah?.englishName}</p>
+                    <p className="lead fs-3 text-center" dir='rtl'>{surah?.name} - {surah?.englishName}</p>
                     <div className='d-flex justify-content-between'>
                         {parseInt(id) ===  1 ? (
                             <button className='btn m-1' onClick={() => navigate(`/home`)}><i className="fa-solid fa-angle-left"></i> Previous</button>
