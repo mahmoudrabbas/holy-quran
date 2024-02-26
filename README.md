@@ -1,10 +1,10 @@
 # Holy Quran is the holy book for muslims.
-## here how it looks on the web
+## here how it looks on browser
 ![](./preview/desktop0.PNG)
 ![](./preview/desktop1.PNG)
 ![](./preview/desktop2.PNG)
 
-## and here how it looks on the phone
+## and here how it looks on mobile
 ![](./preview/mobile1.PNG)
 ![](./preview/mobile2.PNG)
 
