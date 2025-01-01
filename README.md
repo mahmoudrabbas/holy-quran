@@ -1,10 +1,10 @@
 # Holy Quran is the holy book for muslims.
 ## here how it looks on browser
-#here getting some Ayats Randomly to read, by hitting on 'Get Some Ayahs'.
+# here getting some Ayats Randomly to read, by hitting on 'Get Some Ayahs'.
 ![](./preview/desktop0.PNG)
 ![](./preview/desktop1.PNG)
 
-#here getting the surah wanting to read, by choosing the surah you want to read.
+# here getting the surah wanting to read, by choosing the surah you want to read.
 ![](./preview/desktop2.PNG)
 
 ## and here how it looks on mobile
